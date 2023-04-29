@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Alkatra&family=Bodoni+Moda&family=Chivo:wght@600&family=Crete+Round&family=Kanit:ital@1&family=PT+Serif&family=Pacifico&family=Poppins:wght@500;800&family=Raleway:wght@500&family=Roboto+Condensed&family=Rubik:ital@1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style: none;
+}
+
+.banner {
+    padding: 5px 10%;
+}
+.nav {
+    padding: 10px 10%;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.btn {
+    margin-left: 100%;
+    top: 2%;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #4860eb;
+    color: #ffffff;
+}
+.btn:hover{
+    background-color: #f21a1a;
+}
+.navbar ul li img {
+    width: 100%;
+}
+.logo {
+    color: black;
+}
+
+main{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section{
+    width: 40%;
+}
+.left-section h1{
+    width: 60%;
+    font-size: 60px;
+    color: #21263a;
+}
+.left-section p{
+    font-size: 15px;
+    margin-top: 5%;
+}
+
+.left-section button{
+    width: 150px;
+    height: 40px;
+    margin-top: 5%;
+}
+
+.left-section button:hover{
+    background-color: #f21a1a;
+
+
+}
+.left-section span {
+    color: #4860eb;
+}
+.left-section button {
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #4860eb;
+}
+
+.right-section img {
+    width: 100%;
+    height: 100%;
+    margin-top: 30pxs;
+}
